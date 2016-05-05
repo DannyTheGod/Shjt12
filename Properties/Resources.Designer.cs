@@ -212,9 +212,9 @@ namespace PortAIO.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Intro {
+        internal static System.Drawing.Bitmap intro {
             get {
-                object obj = ResourceManager.GetObject("Intro", resourceCulture);
+                object obj = ResourceManager.GetObject("intro", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
