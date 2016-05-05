@@ -40,7 +40,7 @@ namespace PortAIO
 
         private static void Initialize(EventArgs args)
         {
-            Intro = new Render.Sprite(LoadImg("PortLogo"), new Vector2((Drawing.Width / 2) - 175, (Drawing.Height / 2) - 300));
+            Intro = new Render.Sprite(LoadImg("intro"), new Vector2((Drawing.Width / 2) - 175, (Drawing.Height / 2) - 300));
             Intro.Add(0);
             Intro.OnDraw();
             LeagueSharp.Common.Utility.DelayAction.Add(5000, () => Intro.Remove());
